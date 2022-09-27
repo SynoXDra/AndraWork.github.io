@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Awal Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: orange ">
+        <div class="container">
+            <a class="navbar-brand" href="#">Hinata Shoyo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galerry">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Awal Jumbotron -->
+    <div class="jumbotron text-center py-5">
+        <img src="Shoyo.jfif" alt="Shoyo" width="325" />
+        <h1 class="display-4">Hinata Shoyo</h1>
+        <p class="lead">Watashi Adalah Penguasa Dunia Isekai</p>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Awal About -->
+    <div id="about" class="text-center py-5" style="background-color: orange ">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col">
+                    <h2>About Shoyo</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <p> sosok pemain yang memiliki tinggi terbatas dengan warna berambut oranye yang sulit diatur.
+                        Tubuhnya
+                        yang kecil membuatnya sering dikira sebagai anak SMP.Ia biasanya mengenakan seragam sekolah
+                        Karasuno.</p>
+                </div>
+                <div class="col-md-4">
+                    <p> Sementara itu, kepribadiannya digambarkan sebagai sosok yang ceria dan energik. Selain itu, ia
+                        juga
+                        selalu bersemangat ketika menghadapi lawan serta berpikir sederhana akan banyak hal yang
+                        dianggap
+                        rumit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir About -->
+
+    <!-- Awal Gallery -->
+    <div id="gallery" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h2>My Gallery</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-4 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="shoyo4.jpg" class="card-img-top" alt="Poto Saya" />
+                        <div class="card-body">
+                            <h5 class="card-title">Hinata Shoyo</h5>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#gambar-pertama">View Image</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mb-3">
+                    <div class="card" style="width: 18rem">
+                        <img src="shoyo2.jpg" class="card-img-top" alt="Poto Saya" />
+                        <div class="card-body">
+                            <h5 class="card-title">Hinata</h5>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#gambar-kedua">View Image</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mb-3">
+                    <div class="card" style="width: 18rem">
+                        <img src="shoyo3.jpeg" class="card-img-top" alt="Poto Saya" />
+                        <div class="card-body">
+                            <h5 class="card-title">Shoyo</h5>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#gambar-ketiga">View Image</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Gallery -->
+
+    <!-- Modal Pertama -->
+    <div class="modal fade" id="gambar-pertama" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Hinata Shoyo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="shoyo4.jpg" class="img-thumbnail" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Modal Pertama -->
+
+    <!-- Modal Kedua -->
+    <div class="modal fade" id="gambar-kedua" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Hinata</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="shoyo2.jpg" class="img-thumbnail" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Modal Kedua -->
+
+    <!-- Modal Ketiga -->
+    <div class="modal fade" id="gambar-ketiga" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Shoyo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="shoyo3.jpeg" class="img-thumbnail" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Modal Ketiga -->
+
+    <!-- Footer -->
+    <footer class="py-3" style="background-color: orange ">
+        <div class="container text-center">Created By Andra</div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
